@@ -14,5 +14,10 @@ public:
     void deleteNode(struct Node *node); // set la value à -1;
     void pack();
     void printValues();
-    void freeNode(struct Node *node);
+    void freeNode(struct Node *node, int mode);
+    
+    void printAliveValues();
+    int countNode();
+    int countDelNode();
+    int countAliveNode();
 };
